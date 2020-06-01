@@ -1,0 +1,16 @@
+Package: CPULABenchmarks
+Type: Package
+Title: An R package with 18 linear algebra operations for CPU benchmarking
+Version: 0.1.0
+Author: Luis Damiano <damiano.luis@gmail.com>
+Maintainer: Luis Damiano <damiano.luis@gmail.com>
+Description: An R package with 18 linear algebra operations for CPU benchmarking
+  all packed in a one-line function. Linear algebra operations follow Mauricio
+  Vargas Sepulveda's `r-with-intel-mkl` GitHub repository and Dirk
+  Eddelbuettel's `gcbd` R package.
+License: GPL (>= 3)
+Encoding: UTF-8
+Depends: Matrix
+Imports: methods, pbapply
+LazyData: true
+RoxygenNote: 7.1.0
